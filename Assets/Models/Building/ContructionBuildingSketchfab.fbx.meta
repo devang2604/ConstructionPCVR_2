@@ -1,0 +1,365 @@
+fileFormatVersion: 2
+guid: 7feee3bedf5700842be0e2de07e81099
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BalconyBricks
+    second: {fileID: 2100000, guid: 0ff918710cf1cd44a86b14be5b423eaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bricks2
+    second: {fileID: 2100000, guid: e8ec03b847e06d74fa89f97c0b52ab80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BricksWhite
+    second: {fileID: 2100000, guid: 4c3ec51c053315247b877108ed742f5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 8eac7775d106b6947a3ad3021c0286e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: 9f4f691557936d14a97b61e035f70c4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: fc23ab583c0a0dc48a9af77e3182da48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.016
+    second: {fileID: 2100000, guid: eea955e00a67b1145b1bec4db5ac7c43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillar
+    second: {fileID: 2100000, guid: 2f55a8c49cb374845a7377884896aa8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PillarLong
+    second: {fileID: 2100000, guid: c32252d070e2568488b6c6cd1c472cd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedIron
+    second: {fileID: 2100000, guid: 8f8e92d21601ec749a6e9bcaae2cfc42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 28de6b44a7e026848b347be936003f56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope
+    second: {fileID: 2100000, guid: 03dca95f8f01a99458fbe510282c0b4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SideBricks
+    second: {fileID: 2100000, guid: 38ab5e82cc44f0a48ab4faba0698d118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodSidePlatform
+    second: {fileID: 2100000, guid: 41e954516b17e684fb025e04c024a8e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodSupport
+    second: {fileID: 2100000, guid: f6d70f0305c8f4d4a9935182c1c07c5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodTrim
+    second: {fileID: 2100000, guid: 091cfaab692417a45b2bed484842d691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodTrim2
+    second: {fileID: 2100000, guid: 41ac21b7b5eb5014893c7c8aad639b63, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20354_wood_trim_02
+    second: {fileID: 2800000, guid: 11ace31f644553f4585564405858ec84, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20362_plaster_plate
+    second: {fileID: 2800000, guid: 37652cfa7f861194f9dbb3e792e3c3c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20370_brick_02
+    second: {fileID: 2800000, guid: 39a43cdb8f8a8f543a9441c303a32439, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20378_wood_trim_01
+    second: {fileID: 2800000, guid: 3736fd23bba5c0443a475d8035afc55d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20386_concrete_pillar
+    second: {fileID: 2800000, guid: 8ae04c57ff4fe4b44a644351172ed5f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20394_wood_trim_03
+    second: {fileID: 2800000, guid: 3011280051ec3e548b86246f27b960be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20402_brick_03
+    second: {fileID: 2800000, guid: f7d80f4015698ec49b39bf5626eb52c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20410_Brick_01
+    second: {fileID: 2800000, guid: bb89207b0b7475a49bcb6238e736ff53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20418_concrete_floor_grey
+    second: {fileID: 2800000, guid: 90e4ca9909f182a4ab963995b9963153, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20426_concrete_damaged
+    second: {fileID: 2800000, guid: 550909a71b10c564cad6b8006f53b9ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20434_metal_red
+    second: {fileID: 2800000, guid: f7c3e22ad2778634993563c4af80f28c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20442_wood_trim_04
+    second: {fileID: 2800000, guid: 38058b875242ab84a96f3bb53ac6404d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20448_concrete_dirty
+    second: {fileID: 2800000, guid: 0c45878bdc191f04b945c06c2420e96f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20456_rope
+    second: {fileID: 2800000, guid: 78e15e381b4fb3944be4402e70f5ed5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20464_wood_exterior
+    second: {fileID: 2800000, guid: 237d6fdd372d6b440a122c664e4edbbb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20472_metal_rusty
+    second: {fileID: 2800000, guid: 195374e7de4fe4a41b33f8c392fa4309, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 20482_roof_bitumen
+    second: {fileID: 2800000, guid: 9fdcfabf5ccf8064ab3705853f286b32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238508_concrete_dirty_nml
+    second: {fileID: 2800000, guid: 8fe4f16e25afb874c8ed18b612c2a4e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238510_concrete_floor_grey_nml
+    second: {fileID: 2800000, guid: 54c3503be5d804641ae76bed54041682, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238512_concrete_damaged_nml
+    second: {fileID: 2800000, guid: a34f63350f2366343992fd075d8da474, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238514_brick_03_nml
+    second: {fileID: 2800000, guid: 0f2556b89464c464da3df23a2ab27c57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238516_brick_02_nml
+    second: {fileID: 2800000, guid: 7e64189162da5ba44b4e9dcfac8cbf35, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238518_Brick_01_nml
+    second: {fileID: 2800000, guid: c28069a52bb9711419262d0df68b5b25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238520_wood_trim_02_nml
+    second: {fileID: 2800000, guid: 662be637f7fb1954da4521a269366cbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238522_concrete_pillar_nml
+    second: {fileID: 2800000, guid: a66c96583031c2941a58200ebf2aed02, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238524_wood_trim_04_nml
+    second: {fileID: 2800000, guid: 63ee10658da8b0847954f139c1a565ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238526_plaster_plate_nml
+    second: {fileID: 2800000, guid: 199d37cc5963b0c469bc69134bad9f1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238528_roof_bitumen_nml
+    second: {fileID: 2800000, guid: 61fa018160dc02a43bc767e3683a397e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238530_wood_exterior_nml
+    second: {fileID: 2800000, guid: 2b6007477e261444895455f30a7ea2be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238532_metal_rusty_nml
+    second: {fileID: 2800000, guid: 2dfed285dc7c7c944a99db1c7a77fa00, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238540_rope_nml
+    second: {fileID: 2800000, guid: 9f43b73148e6c534c96dad07a450c43c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238542_metal_red_nml
+    second: {fileID: 2800000, guid: f7c86ffb39dd970489f6174efc93a520, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238550_wood_trim_01_nml
+    second: {fileID: 2800000, guid: 3127d4753984e2845bf528d65227a6c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 238552_wood_trim_03_nml
+    second: {fileID: 2800000, guid: 33951b66d2643e8419c1aac566d04aa5, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
