@@ -3,18 +3,24 @@ using UnityEngine;
 public class RoboLook : MonoBehaviour
 {
     public Transform player;
-    public float rotateSpeed = 5f;
+    public Transform cameraTransform;
+    public RoboFollow followScript;
+
+    public float rotateSpeed = 6f;
 
     void Update()
     {
-        if (!player) return;
+        if (!player || !cameraTransform || !followScript) return;
 
-        Vector3 direction = player.position - transform.position;
-        direction.y *= 0.3f;
+        Transform target = followScript.isInFocusMode ? cameraTransform : player;
+
+        Vector3 direction = target.position - transform.position;
+        direction.y *= 0.6f;
 
         if (direction == Vector3.zero) return;
 
         Quaternion targetRotation = Quaternion.LookRotation(direction);
+
         transform.rotation = Quaternion.Slerp(
             transform.rotation,
             targetRotation,

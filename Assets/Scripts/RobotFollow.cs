@@ -1,33 +1,52 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class RoboFollow : MonoBehaviour
 {
     public Transform player;
-    public float followDistance = 2f;
-    public float heightOffset = 1.5f;
-    public float followSpeed = 3f;
+    public Transform cameraTransform;
 
-    public float hoverAmplitude = 0.2f;
-    public float hoverFrequency = 2f;
+    public float followSmoothness = 5f;
+    public Vector3 shoulderOffset = new Vector3(0.6f, 1.4f, -0.8f);
 
-    Vector3 velocity;
+    public float focusDistance = 1.2f;
+    public float focusHeightOffset = -0.2f;
+    public float focusSmoothness = 6f;
+
+    public float hoverAmplitude = 0.05f;
+    public float hoverFrequency = 1.5f;
+
+    public bool isInFocusMode;
 
     void Update()
     {
-        if (!player) return;
+        if (!player || !cameraTransform) return;
 
-        // Target position behind player
-        Vector3 targetPos = player.position
-                            - player.forward * followDistance
-                            + Vector3.up * heightOffset;
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            isInFocusMode = !isInFocusMode;
+        }
 
-        // Smooth follow
-        transform.position = Vector3.SmoothDamp(
+        Vector3 targetPos = isInFocusMode ? GetFocusPosition() : GetShoulderPosition();
+
+        float smooth = isInFocusMode ? focusSmoothness : followSmoothness;
+
+        transform.position = Vector3.Lerp(
             transform.position,
             targetPos + HoverOffset(),
-            ref velocity,
-            0.3f
+            Time.deltaTime * smooth
         );
+    }
+
+    Vector3 GetShoulderPosition()
+    {
+        return player.TransformPoint(shoulderOffset);
+    }
+
+    Vector3 GetFocusPosition()
+    {
+        return cameraTransform.position
+               + cameraTransform.forward * focusDistance
+               + cameraTransform.up * focusHeightOffset;
     }
 
     Vector3 HoverOffset()
