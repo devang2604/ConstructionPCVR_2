@@ -8,6 +8,12 @@ This solution aims to move beyond passive learning (videos, posters, lectures) a
 
 ---
 
+## 🎥 Demo
+
+**Link:** https://youtu.be/jK28q1qAfXo
+
+---
+
 ## 🌍 Why This Matters
 
 Construction is one of the most accident-prone industries worldwide. Traditional training methods often fail to simulate:
