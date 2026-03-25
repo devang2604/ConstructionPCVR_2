@@ -20,15 +20,16 @@
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
   <Project Path="Convai.Modules.LipSync.Editor.csproj" />
   <Project Path="Convai.Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Convai.Modules.Vision.csproj" />
   <Project Path="Convai.Modules.Narrative.csproj" />
   <Project Path="Convai.Sample.UI.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="Convai.Sample.TranscriptUI.csproj" />
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj" />
   <Project Path="Reallusion.CCiC.Editor.csproj" />
   <Project Path="Convai.Infrastructure.Networking.csproj" />
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor.csproj" />
-  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="LiveKit.Editor.csproj" />
   <Project Path="Reallusion.CCiC.Runtime.csproj" />
 </Solution>
